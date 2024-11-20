@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: MySQL-5.7
--- Время создания: Ноя 17 2024 г., 16:56
+-- Время создания: Ноя 20 2024 г., 11:53
 -- Версия сервера: 5.7.44
 -- Версия PHP: 8.2.18
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `evocommerce`
+-- База данных: `datornica`
 --
 
 -- --------------------------------------------------------
@@ -41,7 +41,7 @@ CREATE TABLE `adkq_active_users` (
 --
 
 INSERT INTO `adkq_active_users` (`sid`, `internalKey`, `username`, `lasthit`, `action`, `id`) VALUES
-('kbuleq9o97bipijiv5qk1cc8nn5jufq4', 1, 'admin', 1731773977, '2', 0);
+('o438ltgpd6u8uss43k4lj65964kok3u2', 1, 'admin', 1732091397, '2', 0);
 
 -- --------------------------------------------------------
 
@@ -76,7 +76,7 @@ CREATE TABLE `adkq_active_user_sessions` (
 --
 
 INSERT INTO `adkq_active_user_sessions` (`sid`, `internalKey`, `lasthit`, `ip`) VALUES
-('kbuleq9o97bipijiv5qk1cc8nn5jufq4', 1, 1731773977, '127.0.0.1');
+('o438ltgpd6u8uss43k4lj65964kok3u2', 1, 1732091397, '127.0.0.1');
 
 -- --------------------------------------------------------
 
@@ -558,7 +558,10 @@ INSERT INTO `adkq_manager_log` (`id`, `timestamp`, `internalKey`, `username`, `a
 (172, 1731422887, 1, 'admin', 30, '', '-', 'Saving settings', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'),
 (173, 1731422963, 1, 'admin', 58, '-', 'EVO', 'Logged in', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'),
 (174, 1731678990, 1, 'admin', 58, '-', 'EVO', 'Logged in', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'),
-(175, 1731694271, 1, 'admin', 58, '-', 'EVO', 'Logged in', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36');
+(175, 1731694271, 1, 'admin', 58, '-', 'EVO', 'Logged in', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'),
+(176, 1731937033, 1, 'admin', 58, '-', 'EVO', 'Logged in', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'),
+(177, 1731937082, 1, 'admin', 27, '1', 'Главная', 'Editing resource', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'),
+(178, 1731995887, 1, 'admin', 58, '-', 'EVO', 'Logged in', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36');
 
 -- --------------------------------------------------------
 
@@ -2446,7 +2449,7 @@ CREATE TABLE `adkq_users` (
 --
 
 INSERT INTO `adkq_users` (`id`, `username`, `password`, `cachepwd`, `refresh_token`, `access_token`, `valid_to`, `verified_key`) VALUES
-(1, 'admin', '$P$BhxwuOxPF0Hm1XIl7uHldIOLU4eyGu0', '', '375d208c1739720f2ccefa0e77f1ec42a6c3674c2c5a020e45a61b74338be583', '8564aba9e6c1fa4d7705c17601add93d2fb0195b5c465b6301a22dff40588237', '2024-11-16 05:11:11', NULL);
+(1, 'admin', '$P$BhxwuOxPF0Hm1XIl7uHldIOLU4eyGu0', '', '35c1b489734ac5ac5811942ef2c683d42f428e70d08205f5cc68b0e6f6c8e2a6', '830ca559452edcdea71a817d5b20197d16a6f93e0b4ce253a106d4c9781d32ee', '2024-11-19 16:58:07', NULL);
 
 -- --------------------------------------------------------
 
@@ -2493,7 +2496,7 @@ CREATE TABLE `adkq_user_attributes` (
 --
 
 INSERT INTO `adkq_user_attributes` (`id`, `internalKey`, `fullname`, `first_name`, `last_name`, `middle_name`, `role`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `country`, `street`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `createdon`, `editedon`, `verified`) VALUES
-(1, 1, '', NULL, NULL, NULL, 1, 'admin@local.local', '', '', 0, 0, 0, 9, 1731694270, 1731694270, 0, '1', 0, 0, '', '', '', '', '', '', '', NULL, 1728745019, 1731694271, 1);
+(1, 1, '', NULL, NULL, NULL, 1, 'admin@local.local', '', '', 0, 0, 0, 11, 1731995884, 1731995884, 0, '1', 0, 0, '', '', '', '', '', '', '', NULL, 1728745019, 1731995887, 1);
 
 -- --------------------------------------------------------
 
@@ -2966,7 +2969,7 @@ ALTER TABLE `adkq_list_value_table`
 -- AUTO_INCREMENT для таблицы `adkq_manager_log`
 --
 ALTER TABLE `adkq_manager_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=176;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=179;
 
 --
 -- AUTO_INCREMENT для таблицы `adkq_membergroup_access`

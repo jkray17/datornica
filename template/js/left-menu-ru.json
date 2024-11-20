@@ -1,0 +1,296 @@
+{"menuIndex":[
+
+    { 
+    "icon":"phone","header":"Ремонт телефонов, смартфонов",			"href":"/ru/uslugi/remont-telefonov",
+    "submenuIndex": [
+    {"title":"Ремонт мобильных телефонов",			                "href":"/ru/uslugi/remont-telefonov"},
+    {"title":"Ремонт телефонов iPhone",			                    "href":"/ru/uslugi/remont-telefonov/remont-iphone"},
+    {"title":"Ремонт телефонов HTC",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-htc"},
+    {"title":"Ремонт телефонов Lenovo",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-lenovo"},
+    {"title":"Ремонт телефонов LG",			                        "href":"/ru/uslugi/remont-telefonov/remont-telefonov-lg"},
+    {"title":"Ремонт телефонов Nokia",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-nokia"},
+    {"title":"Ремонт телефонов Samsung",			                "href":"/ru/uslugi/remont-telefonov/remont-telefonov-samsung"},
+    {"title":"Ремонт телефонов Sony",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-sony"},
+    {"title":"Ремонт телефонов Xiaomi",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-xiaomi"},
+    {"title":"Ремонт телефонов Huawei",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-huawei"},
+    {"title":"Ремонт телефонов TECNO",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-tecno"},
+    {"title":"Ремонт телефонов POCO",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-poco"},
+    {"title":"Ремонт телефонов Realme",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-realme"},
+    {"title":"Ремонт телефонов ZTE",			                    "href":"/ru/uslugi/remont-telefonov/remont-telefonov-zte"}
+    ]},
+
+    { 
+    "icon": "laptop","header":"Ремонт ноутбуков",					"href":"/ru/uslugi/remont-noutbukov",
+    "submenuIndex": [
+    {"title":"Ремонт ноутбуков",						            "href":"/ru/uslugi/remont-noutbukov"},
+    {"title":"Ремонт Macbook",						                "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-apple"},
+    {"title":"Ремонт ноутбуков Acer",						        "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-acer"},
+    {"title":"Ремонт ноутбуков Asus",						        "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-asus"},
+    {"title":"Ремонт ноутбуков Dell",						        "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-dell"},
+    {"title":"Ремонт ноутбуков HP",						            "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-hp"},
+    {"title":"Ремонт ноутбуков Lenovo",						        "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-lenovo"},
+    {"title":"Ремонт ноутбуков Samsung",						    "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-samsung"},
+    {"title":"Ремонт ноутбуков Toshiba",						    "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-toshiba"},
+    {"title":"Ремонт ноутбуков MSI",						        "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-msi"},
+    {"title":"Ремонт ноутбуков Sony VAIO",						    "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-sony-vaio"},
+    {"title":"Ремонт ноутбуков Xiaomi",						        "href":"/ru/uslugi/remont-noutbukov/remont-noutbukov-xiaomi"},
+    {"title":"Ремонт блока питания ноутбука",						"href":"/ru/uslugi/remont-noutbukov/remont-bloka-pitaniya-noutbuka"},
+    {"title":"Замена оперативной памяти ноутбука",					"href":"/ru/uslugi/remont-noutbukov/zamena-operativnoj-pamyati-noutbuka"},
+    {"title":"Ремонт клавиатуры в ноутбуках",						"href":"/ru/uslugi/remont-noutbukov/remont-klaviatury-v-noutbukah"},
+    {"title":"Замена жесткого диска в ноутбуке",					"href":"/ru/uslugi/remont-noutbukov/zamena-zhestkogo-diska-v-noutbuke"},
+    {"title":"Замена матрицы в ноутбуке",						    "href":"/ru/uslugi/remont-noutbukov/zamena-matricy-v-noutbuke"},
+    {"title":"Чистка ноутбука",						                "href":"/ru/uslugi/remont-noutbukov/chistka-noutbuka"},
+    {"title":"Замена аккумулятора ноутбука",						"href":"/ru/uslugi/remont-noutbukov/zamena-akkumulyatora-noutbuka"},
+    {"title":"Ремонт петель ноутбука",						        "href":"/ru/uslugi/remont-noutbukov/remont-petel-noutbukae"},
+    {"title":"Замена северного моста на ноутбуке",					"href":"/ru/uslugi/remont-noutbukov/zamena-severnogo-mosta-na-noutbuke"},
+    {"title":"Замена кулера на ноутбуке",						    "href":"/ru/uslugi/remont-noutbukov/zamena-kulera-na-noutbuke"},
+    {"title":"Замена видеокарты на ноутбуке",						"href":"/ru/uslugi/remont-noutbukov/zamena-videokarty-na-noutbuke"},
+    {"title":"Замена USB на ноутбуке",						        "href":"/ru/uslugi/remont-noutbukov/zamena-usb-na-noutbuke"},
+    {"title":"Замена материнской платы на ноутбуке",				"href":"/ru/uslugi/remont-noutbukov/zamena-materinskoj-platy-na-noutbuke"},
+    {"title":"Замена процессора на ноутбуке",						"href":"/ru/uslugi/remont-noutbukov/zamena-processora-na-noutbuke"}
+    ]},
+
+    {
+    "icon": "diskette","header":"Восстановление данных",			"href":"/ru/uslugi/vosstanovlenie-dannyh",
+    "submenuIndex": [
+    {"title":"Восстановление данных",								"href":"/ru/uslugi/vosstanovlenie-dannyh"},
+    {"title":"Ремонт HDD",											"href":"/ru/uslugi/vosstanovlenie-dannyh/remont-hdd"},
+    {"title":"Восстановление данных с RAID",						"href":"/ru/uslugi/vosstanovlenie-dannyh/raid"},
+    {"title":"Восстановление данных с жестких дисков",				"href":"/ru/uslugi/vosstanovlenie-dannyh/hdd"},
+    {"title":"Восстановление удаленных файлов",						"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovlenie-udalennyh-failov"},
+    {"title":"Восстановление данных с flash-носителей",				"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovlenie-dannyh-s-flash"},
+    {"title":"Восстановление данных с дисков",						"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovlenie-dannyh-s-diskov"},
+    {"title":"Восстановления данных карты памяти",					"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovleniya-dannyh-karty-pamyati"},
+    {"title":"Восстановление данных с SD",							"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovlenie-dannyh-s-sd"},
+    {"title":"Восстановление данных с SDD",							"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovlenie-dannyh-s-sdd"},
+    {"title":"Восстановление данных с телефона",					"href":"/ru/uslugi/vosstanovlenie-dannyh/vosstanovlenie-dannyh-s-telefona"}
+    ]},
+
+    {
+    "icon": "joystick","header":"Ремонт игровых приставок",			"href":"/ru/uslugi/remont-igrovih-pristavok",
+    "submenuIndex": [
+    {"title":"Ремонт игровых приставок",							"href":"/ru/uslugi/remont-igrovih-pristavok"},
+    {"title":"Ремонт Xbox",								            "href":"/ru/uslugi/remont-igrovih-pristavok/remont-xbox"},
+    {"title":"Ремонт Nintendo",								        "href":"/ru/uslugi/remont-igrovih-pristavok/remont-nintendo"},
+    {"title":"Ремонт Sony PlayStation",								"href":"/ru/uslugi/remont-igrovih-pristavok/remont-sony-playstation"},
+    {"title":"Ремонт джойстиков",								    "href":"/ru/uslugi/remont-igrovih-pristavok/remont-dzhojstikov"},
+    {"title":"Прошивка приставок",								    "href":"/ru/uslugi/remont-igrovih-pristavok/proshivka-pristavok"}
+    ]},
+
+    {
+    "icon": "tv","header":"Ремонт телевизоров",						"href":"/ru/uslugi/remont-televizorov",
+    "submenuIndex": [
+    {"title":"Ремонт телевизоров",									"href":"/ru/uslugi/remont-televizorov"},
+    {"title":"Ремонт телевизоров Samsung",							"href":"/ru/uslugi/remont-televizorov/samsung"},
+    {"title":"Ремонт телевизоров LG",							    "href":"/ru/uslugi/remont-televizorov/lg"},
+    {"title":"Ремонт телевизоров Philips",							"href":"/ru/uslugi/remont-televizorov/philips"},
+    {"title":"Ремонт телевизоров Sony",							    "href":"/ru/uslugi/remont-televizorov/sony"},
+    {"title":"Ремонт телевизоров Thomson",							"href":"/ru/uslugi/remont-televizorov/thomson"},
+    {"title":"Ремонт телевизоров Toshiba",							"href":"/ru/uslugi/remont-televizorov/toshiba"},
+    {"title":"Замена подсветки телевизора",							"href":"/ru/uslugi/remont-televizorov/zamena-podsvetki-televizora"},
+    {"title":"Замена экрана телевизора в Риге",						"href":"/ru/uslugi/remont-televizorov/zamena-ekrana-televizora-v-rige"},
+    {"title":"Замена матрицы телевизора",							"href":"/ru/uslugi/remont-televizorov/zamena-matricy-televizora"}
+    ]},
+
+    {
+    "icon": "pc","header":"Ремонт компьютеров",						"href":"/ru/uslugi/remont-komputerov",
+    "submenuIndex": [
+    {"title":"Ремонт компьютеров",									"href":"/ru/uslugi/remont-komputerov"},
+    {"title":"Ремонт блока питания компьютера",						"href":"/ru/uslugi/remont-komputerov/remont-bloka-pitaniya-kompyutera"},
+    {"title":"Замена процессора на компьютере",						"href":"/ru/uslugi/remont-komputerov/zamena-processora-na-kompyutere"},
+    {"title":"Ремонт компьютеров Apple",						    "href":"/ru/uslugi/remont-komputerov/remont-komputerov-apple"}	
+    ]},
+
+    {
+    "icon": "gadget","header":"Ремонт планшетов",					"href":"/ru/uslugi/remont-plansetov",
+    "submenuIndex": [
+    {"title":"Ремонт планшетов",									"href":"/ru/uslugi/remont-plansetov"},
+    {"title":"Ремонт планшетов Acer",								"href":"/ru/uslugi/remont-plansetov/remont-planshetov-acer"},
+    {"title":"Ремонт планшетов iPad",								"href":"/ru/uslugi/remont-plansetov/remont-ipad"},
+    {"title":"Ремонт планшетов Huawei",								"href":"/ru/uslugi/remont-plansetov/remont-planshetov-huawei"},
+    {"title":"Ремонт планшетов Asus",								"href":"/ru/uslugi/remont-plansetov/remont-planshetov-asus"},
+    {"title":"Ремонт планшетов Lenovo",								"href":"/ru/uslugi/remont-plansetov/remont-planshetov-lenovo"},
+    {"title":"Ремонт планшетов Sony",								"href":"/ru/uslugi/remont-plansetov/remont-planshetov-sony"},
+    {"title":"Ремонт планшетов Samsung",							"href":"/ru/uslugi/remont-plansetov/remont-planshetov-samsung"},
+    {"title":"Ремонт планшетов Pipo",								"href":"/ru/uslugi/remont-plansetov/remont-planshetov-pipo"},
+    {"title":"Ремонт планшетов Prestigio",							"href":"/ru/uslugi/remont-plansetov/remont-planshetov-prestigio"}
+    ]},
+
+    {
+    "icon": "monitor","header":"Ремонт мониторов",					"href":"/ru/uslugi/remont-monitorov",
+    "submenuIndex": [
+    {"title":"Ремонт мониторов",									"href":"/ru/uslugi/remont-monitorov"},
+    {"title":"Замена экрана монитора LG",							"href":"/ru/uslugi/remont-monitorov/zamena-ekrana-monitora-lg"},
+    {"title":"Замена подсветки монитора",							"href":"/ru/uslugi/remont-monitorov/zamena-podsvetki-monitora"}	
+    ]},
+   
+    {
+    "icon": "mouse","header":"Ремонт периферии",					"href":"/ru/uslugi/remont-periferii",
+    "submenuIndex": [
+    {"title":"Ремонт периферии",								    "href":"/ru/uslugi/remont-periferii"},
+    {"title":"Ремонт принтеров",							        "href":"/ru/uslugi/remont-periferii/remont-printerov"},
+    {"title":"Ремонт роутеров",							            "href":"/ru/uslugi/remont-periferii/remont-routerov"},
+    {"title":"Ремонт мышек, клавиатур",								"href":"/ru/uslugi/remont-periferii/remont-myshek-i-klaviatury"}
+    ]},
+
+    {
+    "icon": "scooter","header":"Ремонт электросамокатов",			"href":"/ru/uslugi/remont-elektrosamokatov",
+    "submenuIndex": [
+    {"title":"Ремонт электросамокатов",								"href":"/ru/uslugi/remont-elektrosamokatov"},
+    {"title":"Замена контроллера на электросамокате",				"href":"/ru/uslugi/remont-elektrosamokatov/zamena-kontrollera-na-elektrosamokate"},
+    {"title":"Замена батареи электросамокатов",						"href":"/ru/uslugi/remont-elektrosamokatov/zamena-batarei-elektrosamokatov"}
+    ]},
+
+    {
+    "icon": "soft","header":"Установка ПО",							"href":"/ru/uslugi/ustanovka-programmnogo-obespecheniya",
+    "submenuIndex": [
+    {"title":"Установка программного обеспечения",					"href":"/ru/uslugi/ustanovka-programmnogo-obespecheniya"},
+    {"title":"Установка программ",									"href":"/ru/uslugi/ustanovka-programmnogo-obespecheniya/ustanovka-programm"},
+    {"title":"Установка драйверов",									"href":"/ru/uslugi/ustanovka-programmnogo-obespecheniya/ustanovka-drajverov"},
+    {"title":"Установка антивирусной защиты",						"href":"/ru/uslugi/ustanovka-programmnogo-obespecheniya/ustanovka-antivirusnoj-zashity"},
+    {"title":"Установка Windows",							        "href":"/ru/uslugi/ustanovka-programmnogo-obespecheniya/ustanovka-windows"}
+    ]},
+    
+    {
+    "icon": "printer","header":"Ремонт оргтехники",					"href":"/ru/uslugi/remont-orgtehniki",
+    "submenuIndex": [
+    {"title":"Ремонт оргтехники",									"href":"/ru/uslugi/remont-orgtehniki"},
+    {"title":"Ремонт принтеров",									"href":"/ru/uslugi/remont-orgtehniki/remont-printerov"},
+    {"title":"Ремонт сканеров",									    "href":"/ru/uslugi/remont-orgtehniki/remont-skanerov"},
+    {"title":"Ремонт МФУ",											"href":"/ru/uslugi/remont-orgtehniki/remont-mfu"}
+    ]},
+
+    {
+    "icon": "cleaner","header":"Ремонт роботов-пылесосов",			"href":"/ru/uslugi/remont-robotov-pylesosov",
+    "submenuIndex": [
+    {"title":"Ремонт роботов-пылесосов",							"href":"/ru/uslugi/remont-robotov-pylesosov"},
+    {"title":"Ремонт роботов-пылесосов POLARIS",					"href":"/ru/uslugi/remont-robotov-pylesosov/remont-robotov-pylesosov-polaris"},
+    {"title":"Ремонт роботов-пылесосов Samsung",					"href":"/ru/uslugi/remont-robotov-pylesosov/remont-robotov-pylesosov-samsung"},
+    {"title":"Ремонт роботов-пылесосов Xiaomi",						"href":"/ru/uslugi/remont-robotov-pylesosov/remont-robotov-pylesosov-xiaomi"},
+    {"title":"Ремонт робота-пылесосов Redmond",						"href":"/ru/uslugi/remont-robotov-pylesosov/remont-robotov-pylesosov-redmond"},
+    {"title":"Ремонт роботов-пылесосов iBoto",						"href":"/ru/uslugi/remont-robotov-pylesosov/remont-robotov-pylesosov-iboto"}
+    ]},
+
+    {
+    "icon": "drone","header":"Ремонт квадрокоптеров",				"href":"/ru/uslugi/remont-kvadrokopterov",
+    "submenuIndex": [
+    {"title":"Ремонт квадрокоптеров",								"href":"/ru/uslugi/remont-kvadrokopterov"}	
+    ]},
+
+    {
+    "icon": "gadget","header":"Ремонт навигаторов",					"href":"/ru/uslugi/remont-navigatorov",
+    "submenuIndex": [
+    {"title":"Ремонт навигаторов",									"href":"/ru/uslugi/remont-navigatorov"}
+    ]},
+
+    {
+    "icon": "coffee","header":"Ремонт кофемашин / кофеварок",		"href":"/ru/uslugi/remont-kofemashin",
+    "submenuIndex": [
+    {"title":"Ремонт кофемашин",									"href":"/ru/uslugi/remont-kofemashin"},
+    {"title":"Ремонт кофемашины Saeco",								"href":"/ru/uslugi/remont-kofemashin/remont-kofemashiny-saeco"},
+    {"title":"Ремонт кофемашин Delonghi",							"href":"/ru/uslugi/remont-kofemashin/remont-kofemashin-delonghi"},
+    {"title":"Ремонт кофемашин Krups",								"href":"/ru/uslugi/remont-kofemashin/remont-kofemashin-krups"},
+    {"title":"Ремонт кофеварки",									"href":"/ru/uslugi/remont-kofemashin/remont-kofevarki"}
+    ]},
+
+    {
+    "icon": "watch","header":"Ремонт фитнес-часов",					"href":"/ru/uslugi/remont-fitnes-chasov",
+    "submenuIndex": [
+    {"title":"Ремонт фитнес-часов",									"href":"/ru/uslugi/remont-fitnes-chasov"}	
+    ]},
+
+    {
+    "icon": "gadget","header":"Ремонт электронных книг",			"href":"/ru/uslugi/remont-elektronnyh-knig",
+    "submenuIndex": [
+    {"title":"Ремонт электронных книг",								"href":"/ru/uslugi/remont-elektronnyh-knig"}
+    ]},
+
+    {
+    "icon": "headphones","header":"Ремонт наушников",				"href":"/ru/uslugi/remont-naushnikov",
+    "submenuIndex": [
+    {"title":"Ремонт наушников",									"href":"/ru/uslugi/remont-naushnikov"},
+    {"title":"Ремонт наушников Akg",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-akg"},
+    {"title":"Ремонт наушников Beats",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-beats"},
+    {"title":"Ремонт наушников Bose",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-bose"},
+    {"title":"Ремонт наушников Sony",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-sony"},
+    {"title":"Ремонт наушников Jbl",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-jbl"},
+    {"title":"Ремонт наушников Koss",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-koss"},
+    {"title":"Ремонт наушников Sennheiser",							"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-sennheiser"},
+    {"title":"Ремонт наушников 1more",								"href":"/ru/uslugi/remont-naushnikov/remont-naushnikov-1more"}	
+    ]},
+
+    {
+    "icon": "monitor","header":"Ремонт моноблоков",					"href":"/ru/uslugi/remont-monoblokov",
+        "submenuIndex": [
+    {"title":"Ремонт моноблоков",									"href":"/ru/uslugi/remont-monoblokov"},
+    {"title":"Ремонт моноблоков Acer",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-acer"},
+    {"title":"Ремонт моноблоков Asus",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-asus"},
+    {"title":"Ремонт моноблоков Apple",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-apple"},
+    {"title":"Ремонт моноблоков Dell",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-dell"},
+    {"title":"Ремонт моноблоков HP",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-hp"},
+    {"title":"Ремонт моноблоков Jet",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-jet"},
+    {"title":"Ремонт моноблоков Lenovo",							"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-lenovo"},
+    {"title":"Ремонт моноблоков MSI",								"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-msi"},
+    {"title":"Ремонт моноблоков Packard Bell",						"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-packard-bell"},
+    {"title":"Ремонт моноблоков Samsung",							"href":"/ru/uslugi/remont-monoblokov/remont-monoblokov-samsung"}		
+    ]},
+
+    {
+    "icon": "speaker","header":"Ремонт акустических систем",		"href":"/ru/uslugi/remont-akusticheskih-sistem",
+    "submenuIndex": [
+    {"title":"Ремонт акустических систем",							"href":"/ru/uslugi/remont-akusticheskih-sistem"},
+    {"title":"Ремонт акустики Beats",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-beats"},
+    {"title":"Ремонт акустики BOSE",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-bose"},
+    {"title":"Ремонт акустики Canyon",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-canyon"},
+    {"title":"Ремонт акустики Lars & Vaensoon",						"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-lars-vaensoon"},
+    {"title":"Ремонт акустики Logitech",							"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-logitech"},
+    {"title":"Ремонт акустики MB Sound",							"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-mb-sound"},
+    {"title":"Ремонт акустики Microlab",							"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-microlab"},
+    {"title":"Ремонт акустики Philips",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-philips"},
+    {"title":"Ремонт акустики Sven",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-sven"},
+    {"title":"Ремонт акустики Vigoole",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-vigoole"},
+    {"title":"Ремонт акустики Pioneer",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-pioneer"},
+    {"title":"Ремонт акустики BBK",									"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-bbk"},
+    {"title":"Ремонт акустики Yamaha",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-yamaha"},
+    {"title":"Ремонт акустики Onkyo",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-onkyo"},
+    {"title":"Ремонт акустики Audio-Technica",						"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-audio-technica"},
+    {"title":"Ремонт акустики Wharfedale",							"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-wharfedale"},
+    {"title":"Ремонт акустики Magnat",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-magnat"},
+    {"title":"Ремонт акустики Defender",							"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-defender"},
+    {"title":"Ремонт акустики Dialog",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-dialog"},
+    {"title":"Ремонт акустики Dowell",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-dowell"},
+    {"title":"Ремонт акустики Edifier",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-edifier"},
+    {"title":"Ремонт акустики Jamo",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-jamo"},
+    {"title":"Ремонт акустики JBL",									"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-jbl"},
+    {"title":"Ремонт акустики Jetbalance",							"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-jetbalance"},
+    {"title":"Ремонт акустики Heco",								"href":"/ru/uslugi/remont-akusticheskih-sistem/remont-akustiki-heco"}
+    ]},     
+
+    {
+    "icon": "photo","header":"Ремонт фотоаппаратов",				"href":"/ru/uslugi/remont-fotoapparatov",
+    "submenuIndex": [
+    {"title":"Ремонт фотоаппаратов",								"href":"/ru/uslugi/remont-fotoapparatov"},
+    {"title":"Ремонт фотоаппаратов Samsung",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-samsung"},
+    {"title":"Ремонт фотоаппаратов Nikon",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-nikon"},
+    {"title":"Ремонт фотоаппаратов Olympus",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-olympus"},
+    {"title":"Ремонт фотоаппаратов Sony",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-sony"},
+    {"title":"Ремонт фотоаппаратов Kodak",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-kodak"},
+    {"title":"Ремонт фотоаппаратов Panasonic",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-panasonic"},
+    {"title":"Ремонт фотоаппаратов Fujifilm",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-fujifilm"},
+    {"title":"Ремонт фотоаппаратов Casio",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-casio"},
+    {"title":"Ремонт фотоаппаратов Pentax",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-pentax"},
+    {"title":"Ремонт фотоаппаратов Benq",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-benq"},
+    {"title":"Ремонт фотоаппаратов Hasselblad",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-hasselblad"},
+    {"title":"Ремонт фотоаппаратов Canon",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-canon"},
+    {"title":"Ремонт фотоаппаратов Recam",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-recam"},
+    {"title":"Ремонт фотоаппаратов Konica Minolta",					"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-konica-minolta"},
+    {"title":"Ремонт фотоаппаратов Leica",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-leica"},
+    {"title":"Ремонт фотоаппаратов Ricoh",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-ricoh"},
+    {"title":"Ремонт фотоаппаратов Minox",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-minox"},
+    {"title":"Ремонт фотоаппаратов Mamiya",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-mamiya"},
+    {"title":"Ремонт фотоаппаратов Sea Life",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-sea-life"},
+    {"title":"Ремонт фотоаппаратов Sea&Sea",						"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-seasea"},
+    {"title":"Ремонт фотоаппаратов Sigma",							"href":"/ru/uslugi/remont-fotoapparatov/remont-fotoapparatov-sigma"}
+    ]}
+   
+    ]}

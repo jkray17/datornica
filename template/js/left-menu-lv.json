@@ -1,0 +1,296 @@
+{"menuIndex":[
+
+    { 
+    "icon":"phone","header":"Telefonu, viedtālruņu remonts",		"href":"/pakalpojumi/mobilo-telefonu-remonts",
+    "submenuIndex": [
+    {"title":"Mobilo telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts"},
+    {"title":"iPhone remonts",			                            "href":"/pakalpojumi/mobilo-telefonu-remonts/iphone-telefonu-remonts"},
+    {"title":"HTC telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/htc-telefonu-remonts"},
+    {"title":"Lenovo telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/lenovo-telefonu-remonts"},
+    {"title":"LG telefonu remonts",			                        "href":"/pakalpojumi/mobilo-telefonu-remonts/lg-telefonu-remonts"},
+    {"title":"Nokia telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/nokia-telefonu-remonts"},
+    {"title":"Samsung telefonu remonts",			                "href":"/pakalpojumi/mobilo-telefonu-remonts/samsung-telefonu-remonts"},
+    {"title":"Sony telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/sony-telefonu-remonts"},
+    {"title":"Xiaomi telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/xiaomi-telefonu-remonts"},
+    {"title":"Huawei telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/huawei-telefonu-remonts"},
+    {"title":"TECNO telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/tecno-telefonu-remonts"},
+    {"title":"POCO telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/poco-telefonu-remonts"},
+    {"title":"Realme telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/realme-telefonu-remonts"},
+    {"title":"ZTE telefonu remonts",			                    "href":"/pakalpojumi/mobilo-telefonu-remonts/zte-telefonu-remonts"}
+    ]},
+
+    { 
+    "icon": "laptop","header":"Portatīvo datoru remonts",			"href":"/pakalpojumi/portativo-datoru-remonts",
+    "submenuIndex": [
+    {"title":"Portatīvo datoru remonts",                            "href":"/pakalpojumi/portativo-datoru-remonts"},
+    {"title":"MacBook portatīvo datoru remonts",					"href":"/pakalpojumi/portativo-datoru-remonts/apple-portativo-datoru-remonts"},
+    {"title":"Acer portatīvo datoru remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/acer-portativo-datoru-remonts"},
+    {"title":"Asus portatīvo datoru remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/asus-portativo-datoru-remonts"},
+    {"title":"Dell portatīvo datoru remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/dell-portativo-datoru-remonts"},
+    {"title":"HP portatīvo datoru remonts",						    "href":"/pakalpojumi/portativo-datoru-remonts/hp-portativo-datoru-remonts"},
+    {"title":"Lenovo portatīvo datoru remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/lenovo-portativo-datoru-remonts"},
+    {"title":"Samsung portatīvo datoru remonts",					"href":"/pakalpojumi/portativo-datoru-remonts/samsung-portativo-datoru-remonts"},
+    {"title":"Toshiba portatīvo datoru remonts",				    "href":"/pakalpojumi/portativo-datoru-remonts/toshiba-portativo-datoru-remonts"},
+    {"title":"MSI portatīvo datoru remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/msi-portativo-datoru-remonts"},
+    {"title":"Sony VAIO portatīvo datoru remonts",					"href":"/pakalpojumi/portativo-datoru-remonts/sony-vaio-portativo-datoru-remonts"},
+    {"title":"Xiaomi portatīvo datoru remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/xiaomi-portativo-datoru-remonts"},
+    {"title":"Portatīvā datora barošanas bloka remonts",			"href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-barosanas-bloka-remonts"},
+    {"title":"RAM nomaiņa klēpjdatorā",					            "href":"/pakalpojumi/portativo-datoru-remonts/ram-nomaina-klepjdatora"},
+    {"title":"Portatīvā datora klaviatūras remonts",				"href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-klaviaturas-remonts"},
+    {"title":"Cietā diska nomaiņa portatīvā datorā",				"href":"/pakalpojumi/portativo-datoru-remonts/cieta-diska-nomaina-portativa-datora"},
+    {"title":"Matricas nomaiņa portatīvā datorā",					"href":"/pakalpojumi/portativo-datoru-remonts/matricas-nomaina-portativa-datora"},
+    {"title":"Portatīvā datora tīrīšana",						    "href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-tirisana"},
+    {"title":"Portatīvā datora akumulatora nomaiņa",				"href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-akumulatora-nomaina"},
+    {"title":"Portatīvā datora eņģes remonts",						"href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-enges-remonts"},
+    {"title":"Ziemeļu tilta nomaiņa datorā",					    "href":"/pakalpojumi/portativo-datoru-remonts/ziemelu-tilta-nomaina-datora"},
+    {"title":"Portatīva datora dzesētāja nomaiņa",					"href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-dzesetaja-nomain"},
+    {"title":"Videokartes nomaiņa portatīva datora",				"href":"/pakalpojumi/portativo-datoru-remonts/videokartes-nomaina-portativa-datora"},
+    {"title":"USB nomaiņa klēpjdatorā",						        "href":"/pakalpojumi/portativo-datoru-remonts/usb-nomaina-klepjdatora"},
+    {"title":"Mātesplates nomaiņa portatīvā datora",				"href":"/pakalpojumi/portativo-datoru-remonts/matesplates-nomaina-portativa-datora"},
+    {"title":"Portatīva datora procesora nomaiņa",					"href":"/pakalpojumi/portativo-datoru-remonts/portativa-datora-procesora-nomaina"}
+    ]},
+
+    {
+    "icon": "diskette","header":"Datu atjaunošana",			        "href":"/pakalpojumi/datu-atjaunoana",
+    "submenuIndex": [
+    {"title":"Datu atjaunošana",								    "href":"/pakalpojumi/datu-atjaunoana"},
+    {"title":"HDD remonts",											"href":"/pakalpojumi/datu-atjaunoana/hdd-remonts"},
+    {"title":"Datu atjaunošana no RAID",						    "href":"/pakalpojumi/datu-atjaunoana/datu-atjaunoana-no-raid"},
+    {"title":"Datu atjaunošana no cietajiem diskiem",				"href":"/pakalpojumi/datu-atjaunoana/datu-atjaunoana-no-cietajiem-diskiem"},
+    {"title":"Dzēsto datu atjaunošana",						        "href":"/pakalpojumi/datu-atjaunoana/dzesto-datu-atjaunoana"},
+    {"title":"Datu atjaunošana no flash",				            "href":"/pakalpojumi/datu-atjaunoana/datu-atjaunoana-no-flash"},
+    {"title":"Datu atjaunošana no diskiem",						    "href":"/pakalpojumi/datu-atjaunoana/datu-atjaunosana-no-diskiem"},
+    {"title":"Atmiņas kartes datu atjaunošana",					    "href":"/pakalpojumi/datu-atjaunoana/atminas-kartes-datu-atjaunosana"},
+    {"title":"Datu atkopšana no SD kartes",							"href":"/pakalpojumi/datu-atjaunoana/datu-atkopsana-no-sd-kartes"},
+    {"title":"Datu atjaunošana no SSD",							    "href":"/pakalpojumi/datu-atjaunoana/datu-atjaunosana-no-ssd"},
+    {"title":"Datu atjaunošana no tālruņa",					        "href":"/pakalpojumi/datu-atjaunoana/datu-atjaunosana-no-talruna"}
+    ]},
+
+    {
+    "icon": "joystick","header":"Spēļu konsoļes remonts",			"href":"/pakalpojumi/spelu-konsoles-remonts",
+    "submenuIndex": [
+    {"title":"Spēļu konsoļes remonts",							    "href":"/pakalpojumi/spelu-konsoles-remonts"},
+    {"title":"Xbox remonts",								        "href":"/pakalpojumi/spelu-konsoles-remonts/xbox-remonts"},
+    {"title":"Nintendo remonts",								    "href":"/pakalpojumi/spelu-konsoles-remonts/nintendo-remonts"},
+    {"title":"Sony Playstation remonts",							"href":"/pakalpojumi/spelu-konsoles-remonts/sony-playstation-remonts"},
+    {"title":"Kontrolieru remonts",								    "href":"/pakalpojumi/spelu-konsoles-remonts/kontrolieru-remonts"},
+    {"title":"Spēļu konsoles programmatūras maiņa",					"href":"/pakalpojumi/spelu-konsoles-remonts/spelu-konsoles-programmaturas-mainas"}
+    ]},
+
+    {
+    "icon": "tv","header":"Televizoru remonts",						"href":"/pakalpojumi/televizoru-remonts",
+    "submenuIndex": [
+    {"title":"Televizoru remonts",									"href":"/pakalpojumi/televizoru-remonts"},
+    {"title":"Samsung televīzoru remonts",							"href":"/pakalpojumi/televizoru-remonts/samsung"},
+    {"title":"LG televīzoru remonts",							    "href":"/pakalpojumi/televizoru-remonts/lg"},
+    {"title":"Philips televīzoru remonts",							"href":"/pakalpojumi/televizoru-remonts/philips"},
+    {"title":"Sony televīzoru remonts",							    "href":"/pakalpojumi/televizoru-remonts/sony"},
+    {"title":"Thomson televīzoru remonts",							"href":"/pakalpojumi/televizoru-remonts/thomson"},
+    {"title":"Toshiba televīzoru remonts",							"href":"/pakalpojumi/televizoru-remonts/toshiba"},
+    {"title":"TV apgaismojuma nomaiņa",							    "href":"/pakalpojumi/televizoru-remonts/tv-apgaismojuma-nomaina"},
+    {"title":"TV ekrāna maiņa",						                "href":"/pakalpojumi/televizoru-remonts/tv-ekrana-maina"},
+    {"title":"Matricas nomaiņa televizorā",							"href":"/pakalpojumi/televizoru-remonts/matricas-nomaina-televizora"}
+    ]},
+
+    {
+    "icon": "pc","header":"Stacionāro datoru remonts",				"href":"/pakalpojumi/stacionaro-datoru-remonts",
+    "submenuIndex": [
+    {"title":"Stacionāro datoru remonts",							"href":"/pakalpojumi/stacionaro-datoru-remonts"},
+    {"title":"Datoru barošanas bloku remonts",						"href":"/pakalpojumi/stacionaro-datoru-remonts/datoru-barosanas-bloku-remonts"},
+    {"title":"Procesora nomaiņa datorā",						    "href":"/pakalpojumi/stacionaro-datoru-remonts/procesora-nomaina-datora"},
+    {"title":"Apple datoru remonts",						        "href":"/pakalpojumi/stacionaro-datoru-remonts/apple-datoru-remonts"}
+    ]},
+
+    {
+    "icon": "gadget","header":"Planšetu remonts",					"href":"/pakalpojumi/planshetu-remonts",
+    "submenuIndex": [
+    {"title":"Planšetu remonts",									"href":"/pakalpojumi/planshetu-remonts"},
+    {"title":"Acer planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-acer"},
+    {"title":"iPad planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-ipad"},
+    {"title":"Huawei planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-huawei"},
+    {"title":"Asus planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-asus"},
+    {"title":"Lenovo planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-lenovo"},
+    {"title":"Sony planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-sony"},
+    {"title":"Samsung planšetu remonts",							"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-samsung"},
+    {"title":"Pipo planšetu remonts",								"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-pipo"},
+    {"title":"Prestigio planšetu remonts",							"href":"/pakalpojumi/planshetu-remonts/planshetu-remonts-prestigio"}
+    ]},
+
+    {
+    "icon": "monitor","header":"Monitoru remonts",					"href":"/pakalpojumi/monitoru-remonts",
+    "submenuIndex": [
+    {"title":"Monitoru remonts",									"href":"/pakalpojumi/monitoru-remonts"},
+    {"title":"LG monitora ekrāna nomaiņa",							"href":"/pakalpojumi/monitoru-remonts/lg-monitora-ekrana-nomaina"},
+    {"title":"Monitora apgaismojuma nomaiņa",						"href":"/pakalpojumi/monitoru-remonts/monitora-apgaismojuma-nomaina"}	
+    ]},
+   
+    {
+    "icon": "mouse","header":"Perifērijas ierīces remonts",			"href":"/pakalpojumi/periferijas-ierices-remonts",
+    "submenuIndex": [
+    {"title":"Perifērijas ierīces remonts",							"href":"/pakalpojumi/periferijas-ierices-remonts"},
+    {"title":"Printeru remonts",							        "href":"/pakalpojumi/periferijas-ierices-remonts/printeru-remonts"},
+    {"title":"Routeru remonts",							            "href":"/pakalpojumi/periferijas-ierices-remonts/routeru-remonts"},
+    {"title":"Pēļu, tastatūru, u.c. remonts.",						"href":"/pakalpojumi/periferijas-ierices-remonts/pelu-tastaturu-u-c-remonts"}
+    ]},
+
+    {
+    "icon": "scooter","header":"Elektrisko skrejriteņu remonts",	"href":"/pakalpojumi/elektrisko-skrejritenu-remonts",
+    "submenuIndex": [
+    {"title":"Elektrisko skrejriteņu remonts",						"href":"/pakalpojumi/elektrisko-skrejritenu-remonts"},
+    {"title":"Kontroliera nomaiņa uz elektriskā skrejriteņa",		"href":"/pakalpojumi/elektrisko-skrejritenu-remonts/kontroliera-nomaina-uz-elektriska-skrejritena"},
+    {"title":"Elektriskā skrejriteņa akumulatora nomaiņa",			"href":"/pakalpojumi/elektrisko-skrejritenu-remonts/elektriska-skrejritena-akumulatora-nomaina"}
+    ]},
+
+    {
+    "icon": "soft","header":"Programmatūras instalēšana",			"href":"/pakalpojumi/programmaturas-instalesana",
+    "submenuIndex": [
+    {"title":"Programmatūras instalēšana",					        "href":"/pakalpojumi/programmaturas-instalesana"},
+    {"title":"Programmu instalēšana",								"href":"/pakalpojumi/programmaturas-instalesana/programmu-instalesana"},
+    {"title":"Draivera instalēšana",								"href":"/pakalpojumi/programmaturas-instalesana/draivera-instalesana"},
+    {"title":"Antivīrusu aizsardzības programmatūras instalēšana",	"href":"/pakalpojumi/programmaturas-instalesana/antivirusu-aizsardzibas-programmaturas-instalesana"},
+    {"title":"Windows instalēšana",							        "href":"/pakalpojumi/programmaturas-instalesana/windows-instalesana"}
+    ]},
+
+    {
+    "icon": "printer","header":"Biroja tehnikas remonts",			"href":"/pakalpojumi/biroja-tehnikas-remonts",
+    "submenuIndex": [
+    {"title":"Biroja tehnikas remonts",								"href":"/pakalpojumi/biroja-tehnikas-remonts"},
+    {"title":"Printeru remonts",									"href":"/pakalpojumi/biroja-tehnikas-remonts/printeru-remonts"},
+    {"title":"Skeneru remonts",									    "href":"/pakalpojumi/biroja-tehnikas-remonts/skeneru-remonts"},
+    {"title":"MFP remonts",											"href":"/pakalpojumi/biroja-tehnikas-remonts/mfp-remonts"}
+    ]},
+
+    {
+    "icon": "cleaner","header":"Robotizēto putekļu sūcēju remonts",	"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts",
+    "submenuIndex": [
+    {"title":"Robotizēto putekļu sūcēju remonts",					"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts"},
+    {"title":"POLARIS robotu putekļu sūcēju remonts",				"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts/polaris-robotu-puteklu-suceju-remonts"},
+    {"title":"Samsung robotu putekļu sūcēju remonts",				"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts/samsung-robotu-puteklu-suceju-remonts"},
+    {"title":"Xiaomi robotu putekļu sūcēju remonts",				"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts/xiaomi-robotu-puteklu-suceju-remonts"},
+    {"title":"Redmond putekļu sūcēju remonts",						"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts/redmond-puteklu-suceju-remonts"},
+    {"title":"iBoto robotu putekļu sūcēju remonts",					"href":"/pakalpojumi/robotizeto-puteklu-suceju-remonts/iboto-robotu-puteklu-suceju-remonts"}
+    ]},
+
+    {
+    "icon": "drone","header":"Kvadrokopteru remonts",				"href":"/pakalpojumi/kvadrokopteru-remonts",
+    "submenuIndex": [
+    {"title":"Kvadrokopteru remonts",								"href":"/pakalpojumi/kvadrokopteru-remonts"}	
+    ]},
+
+    {
+    "icon": "gadget","header":"Navigatoru remonts",					"href":"/pakalpojumi/navigatoru-remonts",
+    "submenuIndex": [
+    {"title":"Navigatoru remonts",									"href":"/pakalpojumi/navigatoru-remonts"}
+    ]},
+
+    {
+    "icon": "coffee","header":"Kafijas automātu remonts",		    "href":"/pakalpojumi/kafijas-automatu-remonts",
+    "submenuIndex": [
+    {"title":"Kafijas automātu remonts",							"href":"/pakalpojumi/kafijas-automatu-remonts"},
+    {"title":"Saeco kafijas automātu remonts",						"href":"/pakalpojumi/kafijas-automatu-remonts/saeco-kafijas-automatu-remonts"},
+    {"title":"Delonghi kafijas automātu remonts",					"href":"/pakalpojumi/kafijas-automatu-remonts/delonghi-kafijas-automatu-remonts"},
+    {"title":"Krups kafijas automātu remonts",						"href":"/pakalpojumi/kafijas-automatu-remonts/krups-kafijas-automatu-remonts"},
+    {"title":"Kafijas automātu remonts",							"href":"/pakalpojumi/kafijas-automatu-remonts/kafijas-automatu-remonts"}
+    ]},
+
+    {
+    "icon": "watch","header":"Fitnesa pulksteņu remonts",			"href":"/pakalpojumi/fitnesa-pulkstenu-remonts",
+    "submenuIndex": [
+    {"title":"Fitnesa pulksteņu remonts",							"href":"/pakalpojumi/fitnesa-pulkstenu-remonts"}	
+    ]},
+
+    {
+    "icon": "gadget","header":"E-grāmatu remonts",			        "href":"/pakalpojumi/e-gramatu-remonts",
+    "submenuIndex": [
+    {"title":"E-grāmatu remonts",								    "href":"/pakalpojumi/e-gramatu-remonts"}
+    ]},
+
+    {
+    "icon": "headphones","header":"Austiņu remonts",				"href":"/pakalpojumi/austinu-remonts",
+    "submenuIndex": [
+    {"title":"Austiņu remonts",									    "href":"/pakalpojumi/austinu-remonts"},
+    {"title":"Akg austiņu remonts",								    "href":"/pakalpojumi/austinu-remonts/akg-austinu-remonts"},
+    {"title":"Beats austiņu remontu",								"href":"/pakalpojumi/austinu-remonts/beats-austinu-remontu"},
+    {"title":"Bose austiņu remonts",								"href":"/pakalpojumi/austinu-remonts/bose-austinu-remonts"},
+    {"title":"Sony austiņu remonts",								"href":"/pakalpojumi/austinu-remonts/sony-austinu-remonts"},
+    {"title":"Jbl austiņu remonts",								    "href":"/pakalpojumi/austinu-remonts/jbl-austinu-remonts"},
+    {"title":"Koss austiņu remonts",								"href":"/pakalpojumi/austinu-remonts/koss-austinu-remonts"},
+    {"title":"Sennheiser austiņu remonts",							"href":"/pakalpojumi/austinu-remonts/sennheiser-austinu-remonts"},
+    {"title":"Austiņu remonts 1more",								"href":"/pakalpojumi/austinu-remonts/austinu-remonts-1more"}	
+    ]},
+
+    {
+    "icon": "monitor","header":"Monobloku remonts",					"href":"/pakalpojumi/monobloku-remonts",
+        "submenuIndex": [
+    {"title":"Monobloku remonts",									"href":"/pakalpojumi/monobloku-remonts"},
+    {"title":"Acer monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/acer-monobloku-remonts"},
+    {"title":"Asus monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/asus-monobloku-remonts"},
+    {"title":"Apple monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/apple-monobloku-remonts"},
+    {"title":"Dell monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/dell-monobloku-remonts"},
+    {"title":"HP monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/hp-monobloku-remonts"},
+    {"title":"Jet monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/jet-monobloku-remonts"},
+    {"title":"Lenovo monobloku remonts",							"href":"/pakalpojumi/monobloku-remonts/lenovo-monobloku-remonts"},
+    {"title":"MSI monobloku remonts",								"href":"/pakalpojumi/monobloku-remonts/msi-monobloku-remonts"},
+    {"title":"Packard Bell monobloku remonts",						"href":"/pakalpojumi/monobloku-remonts/packard-bell-monobloku-remonts"},
+    {"title":"Samsung monobloku remonts",							"href":"/pakalpojumi/monobloku-remonts/samsung-monobloku-remonts"}		
+    ]},
+
+    {
+    "icon": "speaker","header":"Skaļruņu remonts",		            "href":"/pakalpojumi/skalrunu-remonts",
+    "submenuIndex": [
+    {"title":"Skaļruņu remonts",							        "href":"/pakalpojumi/skalrunu-remonts"},
+    {"title":"Beats akustikas remonts",								"href":"/pakalpojumi/skalrunu-remonts/beats-akustikas-remonts"},
+    {"title":"BOSE akustiskas remonts",								"href":"/pakalpojumi/skalrunu-remonts/bose-akustiskas-remonts"},
+    {"title":"Canyon akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/canyon-akustikas-remonts"},
+    {"title":"Lars & Vaensoon akustikas remonts",					"href":"/pakalpojumi/skalrunu-remonts/lars-vaensoon-akustikas-remonts"},
+    {"title":"Logitech akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/logitech-akustikas-remonts"},
+    {"title":"MB Sound akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/mb-sound-akustikas-remonts"},
+    {"title":"Microlab akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/microlab-akustikas-remonts"},
+    {"title":"Philips akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/philips-akustikas-remonts"},
+    {"title":"Sven akustikas remonts",								"href":"/pakalpojumi/skalrunu-remonts/sven-akustikas-remonts"},
+    {"title":"Vigoole akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/vigoole-akustikas-remonts"},
+    {"title":"Pioneer akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/pioneer-akustikas-remonts"},
+    {"title":"BBK akustiskas remonts",								"href":"/pakalpojumi/skalrunu-remonts/bbk-akustiskas-remonts"},
+    {"title":"Yamaha akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/yamaha-akustikas-remonts"},
+    {"title":"Onkyo akustikas remonts",								"href":"/pakalpojumi/skalrunu-remonts/onkyo-akustikas-remonts"},
+    {"title":"Audio-Technica akustikas remonts",					"href":"/pakalpojumi/skalrunu-remonts/audio-technica-akustikas-remonts"},
+    {"title":"Wharfedale akustikas remonts",						"href":"/pakalpojumi/skalrunu-remonts/wharfedale-akustikas-remonts"},
+    {"title":"Magnat akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/magnat-akustikas-remonts"},
+    {"title":"Defender akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/defender-akustikas-remonts"},
+    {"title":"Dialog akustikas remonts",							"href":"/pakalpojumi/skalrunu-remonts/dialog-akustikas-remonts"},
+    {"title":"Dowell akustiskas remonts",							"href":"/pakalpojumi/skalrunu-remonts/dowell-akustiskas-remonts"},
+    {"title":"Edifier akustiskas remonts",							"href":"/pakalpojumi/skalrunu-remonts/edifier-akustiskas-remonts"},
+    {"title":"Jamo akustikas remonts",								"href":"/pakalpojumi/skalrunu-remonts/jamo-akustikas-remonts"},
+    {"title":"JBL akustikas remonts",								"href":"/pakalpojumi/skalrunu-remonts/jbl-akustikas-remonts"},
+    {"title":"Jetbalance akustikas remonts",						"href":"/pakalpojumi/skalrunu-remonts/jetbalance-akustikas-remonts"},
+    {"title":"Heco akustiskas remonts",								"href":"/pakalpojumi/skalrunu-remonts/heco-akustiskas-remonts"}
+    ]},
+
+    {
+    "icon": "photo","header":"Kameras remonts",				        "href":"/pakalpojumi/kameras-remonts",
+    "submenuIndex": [
+    {"title":"Kameras remonts",								        "href":"/pakalpojumi/kameras-remonts"},
+    {"title":"Samsung fotoaparātu remonts",						    "href":"/pakalpojumi/kameras-remonts/samsung-fotoaparatu-remonts"},
+    {"title":"Nikon fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/nikon-fotoaparatu-remonts"},
+    {"title":"Olympus fotoaparātu remonts",						    "href":"/pakalpojumi/kameras-remonts/olympus-fotoaparatu-remonts"},
+    {"title":"Sony fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/sony-fotoaparatu-remonts"},
+    {"title":"Kodak fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/kodak-fotoaparatu-remonts"},
+    {"title":"Panasonic fotoaparātu remonts",						"href":"/pakalpojumi/kameras-remonts/panasonic-fotoaparatu-remonts"},
+    {"title":"Fujifilm fotokameru remonts",						    "href":"/pakalpojumi/kameras-remonts/fujifilm-fotokameru-remonts"},
+    {"title":"Casio fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/casio-fotoaparatu-remonts"},
+    {"title":"Pentax fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/pentax-fotoaparatu-remonts"},
+    {"title":"Benq fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/benq-fotoaparatu-remonts"},
+    {"title":"Hasselblad fotoaparātu remonts",						"href":"/pakalpojumi/kameras-remonts/hasselblad-fotoaparatu-remonts"},
+    {"title":"Canon fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/canon-fotoaparatu-remonts"},
+    {"title":"Recam fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/recam-fotoaparatu-remonts"},
+    {"title":"Konica Minolta fotoaparātu remonts",					"href":"/pakalpojumi/kameras-remonts/konica-minolta-fotoaparatu-remonts"},
+    {"title":"Leica fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/leica-fotoaparatu-remonts"},
+    {"title":"Ricoh fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/ricoh-fotoaparatu-remonts"},
+    {"title":"Minox fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/minox-fotoaparatu-remonts"},
+    {"title":"Mamiya fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/mamiya-fotoaparatu-remonts"},
+    {"title":"Sea Life fotoaparātu remonts",						"href":"/pakalpojumi/kameras-remonts/sea-life-fotoaparatu-remonts"},
+    {"title":"Sea&Sea fotoaparātu remonts",						    "href":"/pakalpojumi/kameras-remonts/seasea-fotoaparatu-remonts"},
+    {"title":"Sigma fotoaparātu remonts",							"href":"/pakalpojumi/kameras-remonts/sigma-fotoaparatu-remonts"}
+    ]}
+   
+    ]}

@@ -1,0 +1,82 @@
+main#main_content footer#footer {padding-top: 50px; padding-left: 100px; padding-right: 100px; display: flex; flex-wrap: wrap;}
+footer#footer div {padding:10px 25px;}
+footer#footer div#one {width: calc(25% - 50px); }
+footer#footer div#two {width: calc(25% - 50px); }
+footer#footer div#three {width: 50%; display: flex; flex-wrap: wrap; padding:0;}
+footer#footer div#four {width: calc(50% - 50px);}
+footer#footer div#five {width: calc(50% - 50px);}
+footer#footer div#six {width: calc(100% - 50px);}
+footer#footer div#seven {width: calc(100% - 50px);}
+footer#footer div#seven div {width:100%; text-align:center;}
+
+footer#footer div#one img.logo {width:80%; margin-top:30px; margin-left:10%;}
+footer#footer div#one img.social {width:45px; height:45px;}
+footer#footer div#one p {font-size: 16px; line-height: 21px; font-weight: 100; text-align:justify;}
+footer#footer div#one p span, footer#footer div#two ul span {color:var(--orange);}
+footer#footer div#two p, footer#footer div#two ul, footer#footer div#two address, footer#footer div#four ul, footer#footer div#five ul {
+	font-size: 16px; line-height: 21px; font-weight: 100; text-align:justify; font-style: normal;}
+footer#footer div#one p.footer_header, footer#footer div#two p.footer_header, footer#footer div#four p.footer_header, footer#footer div#five p.footer_header, footer#footer div#six p.footer_header {
+	padding-top:25px; font-size: 20px; line-height: 26px; font-weight: 600; margin-bottom: 15px; color:var(--grey); text-align:left;}
+footer#footer a.phone_number {font-size: 32px; line-height: 40px; font-weight: 600; color:var(--orange);}
+footer#footer div#four ul li::marker , footer#footer div#five ul li::marker {content: ' ✓ '; }
+footer#footer div#four ul li, footer#footer div#five ul li {margin:5px 0;}
+footer#footer div#four ul li a, footer#footer div#five ul li a {margin-left: 6px;}
+footer#footer div#footer_payment {width:100%; display: flex; flex-wrap: wrap; padding:0; align-items:center;}
+div#footer_payment img {width:50px; height:50px; background:var(--white); padding:0 15px; margin:15px; border-radius:7px;}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+	main#main_content footer#footer {padding-left: 20px; padding-right: 20px;}
+	div#two address br {display:none;}
+	footer#footer div#two address {text-align:left;}
+	footer#footer div#two p, footer#footer div#two ul, footer#footer div#two address, footer#footer div#four ul, footer#footer div#five ul {font-size: 15px;}
+}
+
+@media (min-width: 680px) and (max-width: 1023px) {
+	main#main_content footer#footer {padding-left: 15px; padding-right: 15px;}
+	footer#footer div#one, footer#footer div#two {width: calc(50% - 50px); }
+	footer#footer div#three {width: 100%;}
+	footer#footer div#seven {padding-bottom:60px;}
+	footer#footer div#one p {text-align:left; font-size: 15px;}
+	footer#footer div#two p, footer#footer div#two ul, footer#footer div#two address, footer#footer div#four ul, footer#footer div#five ul {font-size: 15px;}
+	footer#footer a.phone_number {font-size: 28px; line-height: 30px;}
+	footer#footer div#one p.footer_header, footer#footer div#two p.footer_header, footer#footer div#four p.footer_header, footer#footer div#five p.footer_header, footer#footer div#six p.footer_header {
+	font-size: 18px;}
+	footer#footer div#one img.logo {max-width:300px;}
+}
+
+@media (min-width: 321px) and (max-width: 679px) {
+	main#main_content footer#footer {padding-left: 10px; padding-right: 10px; padding-top: 20px;}
+	footer#footer div {padding:0px 15px;}
+	footer#footer div#one, footer#footer div#two, footer#footer div#four, footer#footer div#five, footer#footer div#six, footer#footer div#seven {width: calc(100% - 30px); }
+	footer#footer div#three {width: 100%;}
+	footer#footer div#one img.logo {max-width:300px;}
+	footer#footer div#one p {text-align:left; font-size: 14px;}
+	footer#footer div#two p, footer#footer div#two ul, footer#footer div#two address, footer#footer div#four ul, footer#footer div#five ul {font-size: 14px;}
+	footer#footer div#one p.footer_header, footer#footer div#two p.footer_header, footer#footer div#four p.footer_header, footer#footer div#five p.footer_header, footer#footer div#six p.footer_header {
+	font-size: 16px; margin-bottom: 5px; padding-top: 15px;}
+	footer#footer a.phone_number {font-size: 26px; line-height: 30px; width:100%;text-align:center; display:block;}
+	footer#footer div#four ul, footer#footer div#five ul {width:calc(100% - 30px); padding-left:30px;}
+	footer#footer div#footer_payment {justify-content:center;}
+	div#footer_payment img {width:50px; height:50px; padding:0 10px; margin:10px; border-radius:5px;}
+	footer#footer div#seven div {padding:15px 0; font-size: 14px;}
+}
+
+@media (min-width: 260px) and (max-width: 320px) {
+	main#main_content footer#footer {padding-left: 6px; padding-right: 6px; padding-top: 10px;}
+	footer#footer div {padding:0px 6px;}
+	footer#footer div#one, footer#footer div#two, footer#footer div#four, footer#footer div#five, footer#footer div#six, footer#footer div#seven {width: calc(100% - 12px); }
+	footer#footer div#three {width: 100%;}
+	footer#footer div#one p {text-align:left; font-size: 14px;}
+	footer#footer div#two p, footer#footer div#two ul, footer#footer div#two address, footer#footer div#four ul, footer#footer div#five ul {font-size: 14px;}
+	footer#footer div#one p.footer_header, footer#footer div#two p.footer_header, footer#footer div#four p.footer_header, footer#footer div#five p.footer_header, footer#footer div#six p.footer_header {
+	font-size: 16px; margin-bottom: 5px; padding-top: 15px;}
+	footer#footer a.phone_number {font-size: 26px; line-height: 30px; width:100%;text-align:center; display:block;}
+	footer#footer div#four ul, footer#footer div#five ul {width:calc(100% - 15px); padding-left:15px;}
+	footer#footer div#footer_payment {justify-content:center;}
+	footer#footer div#seven div {padding:15px 0; font-size: 13px;}
+	div#footer_payment img {width:50px; height:50px; padding:0 5px; margin:8px; border-radius:5px;}
+}
+
+@media (max-width: 259px) {
+	main#main_content footer#footer {display:none;}
+}

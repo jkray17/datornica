@@ -1,0 +1,456 @@
+@media (min-width: 260px) and (max-width: 679px) {div.breadcrumbs {margin-top: 55px;} }
+/* FRAME */
+main#main_content aside#main_ui {width: 100%;}
+div#service_frame { width: 100%; z-index: 5; transition: margin-left .8s ease-in-out;}
+section#service_content {background: var(--white);}
+
+/* LEFT MENU */
+nav#service_left-menu {height: 100%; width: 80px; background: var(--black); z-index: 6; position: fixed;
+    transition: left .8s ease-in-out; left: -80px; 
+	overflow-y: auto; overflow-x: hidden; -ms-overflow-style: none; scrollbar-width: none;}
+    nav#service_left-menu::-webkit-scrollbar {width: 0px; display:none;}
+section.service_left-menu { left: 80px; top: 0; opacity: 0; height: 100vh; width:0px;
+    transition: all .3s ease-in-out; overflow-x: hidden; position: fixed; z-index: 1; 
+    background: var(--dark-blue3); padding-top: 122px; }
+@media (min-width: 1024px) {
+	section#service_content {background: transparent;}
+    header#pc_header.short + main#main_content aside nav section {padding-top: 50px;}
+	main#main_content:has(aside#main_ui nav#service_left-menu.show) div#service_frame {width:calc(100% - 80px); margin-left:80px;}
+    nav#service_left-menu.show {left: 0;}
+    nav#service_left-menu ul {width: 80px; position: relative; z-index: 6;
+        display: flex;flex-direction: column; margin-bottom: 122px;}
+    header#pc_header.short + main#main_content aside nav#service_left-menu ul {margin-bottom: 50px;}
+    nav#service_left-menu li {width: 80px;height: 90px;border-bottom: 1px solid var(--black2);
+        position: relative; z-index: 6;
+        transition: background .2s ease-in-out;display: flex;align-items: center;justify-content: center;}
+    nav#service_left-menu a.icon {width: 80px;height: 90px;
+        background: none;opacity: .7; transition: opacity .2s linear;}
+    nav#service_left-menu li:hover {background: var(--dark-blue3); cursor: pointer;}
+    nav#service_left-menu li:hover section.service_left-menu {width: 350px; opacity: 1;}
+    nav#service_left-menu li:hover a {opacity: 1;}
+    nav#service_left-menu li section.service_left-menu p {min-width: 320px; min-height: 90px; margin-left: 30px;
+        display: flex; align-items: center; line-height: 30px;
+        font-size: 22px;opacity: 0;
+        transition: opacity .3s linear; letter-spacing: 1px;
+        text-transform: uppercase;color: var(--white);}
+    nav#service_left-menu li:hover section.service_left-menu p {opacity: 1;}
+    nav#service_left-menu li section.service_left-menu ul {overflow-y:auto; overflow-x: hidden;
+        width: 320px;margin-left: 10px; max-height: calc(100vh - 280px);}
+    nav#service_left-menu li section.service_left-menu ul::-webkit-scrollbar {width: 7px;}
+    nav#service_left-menu li section.service_left-menu ul::-webkit-scrollbar-track {
+        background: var(--dark-blue3);}
+    nav#service_left-menu li section.service_left-menu ul::-webkit-scrollbar-thumb {
+        background-color: var(--white2);}
+    nav#service_left-menu li section.service_left-menu ul li {
+        min-width: 320px;height: auto;border-bottom: none;}
+    nav#service_left-menu li section.service_left-menu ul li a {
+        width: calc(100% - 70px);margin-left: 10px;padding: 6px 20px; color: var(--grey2);font-size: 14px;
+        line-height: 20px;border-bottom: 1px solid var(--white3);transition: all .2s ease-in-out;}
+    nav#service_left-menu li section.service_left-menu ul li:hover a {
+        color: var(--white); background: var(--dark-blue2);}
+}
+
+/* IMAGES */
+div#services nav ol li ul li.visible.personal-computer {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/personal-computer.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.laptop {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/laptop.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.e-book {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/e-book.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.tablet {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/tablet.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.smart-watch {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/smart-watch.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.mini-pc {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/mini-pc.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.server {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/server.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.all-in-one {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/all-in-one.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.thin-client {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/thin-client.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.asic {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/asic.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.mobile-phone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/mobile-phone.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.home-phone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/home-phone.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.radio-phone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/radio-phone.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.video-phone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/video-phone.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.voip-phone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/voip-phone.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.satellite-phone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/satellite-phone.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.fax {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/fax.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.video-kit {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/video-kit.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.printer {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/printer.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.scanner {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/scanner.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.mfu {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/mfu.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.kopir {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/kopir.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.shreder {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/shreder.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.ustanovka-po {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/ustanovka-po.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.data-recovery {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/data-recovery.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.naushniki {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/naushniki.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.mikrofon {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/mikrofon.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.audioplayer {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/audioplayer.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.voice-recorder {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/voice-recorder.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.akustika {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/akustika.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.muz-centr {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/muz-centr.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.usilok {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/usilok.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.reciver {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/reciver.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.portativnie-kolonki {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/portativnie-kolonki.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.radiopriemnik {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/radiopriemnik.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.tv {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/tv.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.monitor {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/monitor.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.consoles {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/consoles.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.proektor {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/proektor.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.videocam {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/videocam.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.videonablyudenie {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/videonablyudenie.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.videoplayer {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/videoplayer.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.photocam {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/photocam.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.videorec {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/videorec.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.drone {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/drone.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.mouse {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/mouse.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.keyboard {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/keyboard.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.joystick {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/joystick.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.ruli {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/ruli.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.midi {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/midi.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.ethernet {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/ethernet.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.router {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/router.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.switch {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/switch.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.firewall {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/firewall.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.ethernet-hub {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/ethernet-hub.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.modem {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/modem.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.print-server {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/print-server.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.nas {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/nas.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.ip-camera {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/ip-camera.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.voip {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/voip.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.kofemashini-i-kofevarki {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/kofemashini-i-kofevarki.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.pilesos {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/pilesos.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.robot-pilesos {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/robot-pilesos.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.electric-kettle {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/electric-kettle.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.microwave {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/microwave.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.multivarka {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/multivarka.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.sokovizhimalka {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/sokovizhimalka.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.toster {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/toster.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.blender {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/blender.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.mixer {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/mixer.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.parovarka {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/parovarka.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.myasorubka {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/myasorubka.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.elektronozhnici {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/elektronozhnici.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.utyug {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/utyug.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.fen {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/fen.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.toothbrush {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/toothbrush.webp'); background-size: cover;}
+
+div#services nav ol li ul li.visible.auto {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/auto.webp'); background-size: cover;}
+div#services nav ol li ul li.visible.scooter {background-image: linear-gradient(to bottom, var(--alpha-dark), transparent, transparent),
+	url('/img/services/scooter.webp'); background-size: cover;}
+
+@media (min-width: 581px) {
+	div#services nav ol li:first-child ul {
+		background-image: url('/img/background/fill-background.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(2) ul {
+		background-image: url('/img/background/telecom.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(3) ul {
+		background-image: url('/img/background/orgtehnika.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(4) ul {
+		background-image: url('/img/background/raid.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(5) ul {
+		background-image: url('/img/background/music.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(6) ul {
+		background-image: url('/img/background/home-cinema.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(7) ul {
+		background-image: url('/img/background/gamers.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(8) ul {
+		background-image: url('/img/background/lan.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:nth-child(9) ul {
+		background-image: url('/img/background/appliances.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+	div#services nav ol li:last-child ul {
+		background-image: url('/img/background/autosound.webp');
+		background-repeat: no-repeat; background-size: 66.666%; background-position: right bottom;
+	}
+}
+
+/* LOADER */
+@keyframes loader { from { transform: rotate(0deg);} to {transform: rotate(360deg);}}
+div#services nav ol li ul li.lazy div {width: 50px; height:50px; position: absolute; z-index: 6; top: calc(50% - 25px); left:calc(50% - 25px);
+	border-radius:20%; border-top: 1px solid var(--white); border-bottom: 1px solid var(--white); animation: .2s linear 0s infinite alternate loader;}
+div#services nav ol li ul li.visible.lazy div {display:none;}
+
+/* FORM */
+
+div#modal-wrapper textarea {width:100%; margin-top:15px; min-height:60px; font-size: 15px; padding-left: 15px; padding-top:15px; 
+	border-radius: 6px; font-family: 'Arial'; resize: vertical; max-height:calc(100vh - 230px);}
+div#modal-wrapper textarea::placeholder {font-size: 15px;}
+div#modal-wrapper input.invalid::placeholder {color:var(--white);}
+div#modal-wrapper textarea, div#modal-wrapper input {transition:background .3s linear;}
+div#modal-wrapper textarea.invalid, div#modal-wrapper input.invalid {background:var(--red); color:var(--white);}
+div#modal-wrapper textarea.valid, div#modal-wrapper input.valid {background:var(--dark-blue3); color:var(--white);}
+
+/* CONTENT */
+
+@media (max-width: 259px) {body {display:none;}}
+@media (min-width: 260px) and (max-width: 439px) {
+	div#services nav ol li ul li div {display:none;}
+	section#service_content h1 {width:calc(100% - 80px); font-size: 20px; text-align:center; color:var(--dark-blue3); padding:15px 40px; line-height: 28px;}
+	div#description, div#diagnostics {width: 100%; padding: 12px; margin 12px;}
+	div#diagnostics h2 {color:var(--dark-blue3); font-size: 16px; width: calc(100% - 30px); text-align:center; margin-bottom:10px; margin-top:10px; line-height: 26px;}
+	div#description p, div#diagnostics p {width: calc(100% - 30px); font-size: 14px;line-height: 21px; margin-bottom: 7px; color:var(--black2); text-align: justify;}
+	div#diagnostics button {width: 180px; height:35px; border-radius: 8px; margin-left: calc(50% - 100px); cursor:pointer; font-size: 16px;
+		border: 1px solid var(--white); background: var(--dark-blue3); color:var(--white); transition: background .2s linear; margin-bottom:10px;  margin-top:10px; }
+	div#diagnostics button:hover {background: var(--red);}
+	
+	div#services nav {width:100%; background:var(--white3); margin-bottom:35px;}
+	div#services nav h3 {color:var(--dark-blue3); width:calc(100% - 40px); font-size: 16px; line-height: 28px; margin-top:25px; margin-bottom:10px; margin-left:15px;
+	border-top: 1px solid var(--dark-blue3); padding-top:10px;}
+	div#services nav p {width: calc(100% - 30px); color:var(--black2); font-size: 14px; line-height: 21px; padding-left:15px; margin-bottom:12px;}
+	
+	section#service_content div#services nav ol li button.show-more { margin-bottom: 10px;margin-top: 10px; margin-right: 20px; float: right; width: 180px;
+    	border: none;padding: 5px;font-size: 15px;background: var(--dark-blue3);color: var(--white);border-radius: 8px; transition:background .3s linear;}
+	section#service_content div#services nav ol li button.show-more:hover {background: var(--blue); cursor:pointer;}
+	
+	section#service_content div#services nav ol li ul { max-height:0; overflow:hidden; transition:max-height .35s linear;
+		user-select:none;width:100%; display: flex; flex-wrap:wrap; background-size: 98%;}
+	div#services nav ol li ul li h4 br, div#services nav ol li ul li span {display:none;}
+	
+	section#service_content div#services nav ol li ul.open {max-height:2000px;}
+	
+	div#services nav ol li ul li {width:calc(100% - 20px); height:100px; overflow:hidden; position:relative; margin:5px 10px; border-radius:6px;}
+	
+	section#service_content div#services nav ol li ul li.visible {background-repeat: no-repeat; background-position: center center;}
+	div#services nav ol li ul li h4 {color:var(--white);font-size: 16px; line-height: 24px; display:block;
+		margin-top:12px; padding-left:25px; padding-right:25px; position:relative;z-index: 5; max-width:100%;
+		background:linear-gradient(90deg, rgba(141,51,69,.9) 0%, rgba(36,50,95,.6) 40%, transparent 80%, transparent 100%);
+	}
+	div#services nav ol li ul li h4 br, div#services nav ol li ul li span {display:none;}
+	div#services nav ol li ul li a {position:absolute; display:block; bottom:5px; right:0px; font-size: 14px; line-height: 20px;
+		width:125px; height:20px; background:var(--red); text-align:center; color:var(--white); transition: none; border-radius:6px 0 0 6px;}
+}
+@media (min-width: 440px) and (max-width: 679px) {
+	div#services nav ol li ul li div {display:none;}
+	section#service_content h1 {width:100%; font-size: 18px; text-align:center; color:var(--dark-blue3); padding-top:25px; padding-bottom:10px;}
+	div#description, div#diagnostics {width: 100%; padding: 12px; margin 12px;}
+	div#diagnostics h2 {color:var(--dark-blue3); font-size: 18px; width: calc(100% - 30px); text-align:center; margin-bottom:10px; margin-top:10px;}
+	div#description p, div#diagnostics p {width: calc(100% - 30px); font-size: 14px;line-height: 21px; margin-bottom: 7px; color:var(--black2); text-align: justify;}
+	div#diagnostics button {width: 250px; height:40px; border-radius: 8px; margin-left: calc(50% - 135px); cursor:pointer; font-size: 16px;
+		border: 1px solid var(--white); background: var(--dark-blue3); color:var(--white); transition: background .2s linear; margin-bottom:10px;  margin-top:10px; }
+	div#diagnostics button:hover {background: var(--red);}
+	
+	div#services nav {width:100%; background:var(--white3); margin-bottom:35px;}
+	div#services nav h3 {color:var(--dark-blue3); width:calc(100% - 30px); font-size: 18px; line-height: 28px; margin-top:25px; margin-bottom:10px; margin-left:15px;
+	border-top: 1px solid var(--dark-blue3); padding-top:10px;}
+	div#services nav p {color:var(--black2); font-size: 14px; line-height: 21px; padding-left:15px; margin-bottom:12px;}
+	section#service_content div#services nav ol li button.show-more { margin-bottom: 10px;margin-top: 10px; margin-right: 40px; float: right; width: 180px;
+    	border: none;padding: 5px;font-size: 15px;background: var(--dark-blue3);color: var(--white);border-radius: 8px; transition:background .3s linear;}
+	section#service_content div#services nav ol li button.show-more:hover {background: var(--blue); cursor:pointer;}
+	section#service_content div#services nav ol li ul { max-height:0; overflow:hidden; transition:max-height .35s linear;
+		user-select:none;width:100%; display: flex; flex-wrap:wrap; background-size: 98%;}
+	div#services nav ol li ul li h4 br, div#services nav ol li ul li span {display:none;}
+}
+@media (min-width: 440px) and (max-width: 580px) {
+	section#service_content div#services nav ol li ul.open {max-height:2000px;}
+	div#services nav ol li ul li {width:calc(100% - 20px); height:100px; overflow:hidden; position:relative; margin:5px 10px; border-radius:6px; }
+	section#service_content div#services nav ol li ul li.visible {background-repeat: no-repeat; background-position: center center;}
+	div#services nav ol li ul li h4 {color:var(--white);font-size: 16px; line-height: 24px; display:block;
+		margin-top:12px; padding-left:25px; padding-right:25px; position:relative;z-index: 5; max-width:100%;
+		background:linear-gradient(90deg, rgba(141,51,69,.9) 0%, rgba(36,50,95,.6) 40%, transparent 80%, transparent 100%);
+	}
+	div#services nav ol li ul li h4 br, div#services nav ol li ul li span {display:none;}
+	div#services nav ol li ul li a {position:absolute; display:block; bottom:5px; right:0px; font-size: 14px; line-height: 20px;
+		width:125px; height:20px; background:var(--red); text-align:center; color:var(--white); transition: none; border-radius:6px 0 0 6px;}
+}
+@media (min-width: 581px) and (max-width: 679px) {
+	section#service_content div#services nav ol li ul.open {max-height:2000px;}
+	div#services nav ol li ul li {width:50%; height:30vw; overflow:hidden; position:relative;}
+	div#services nav ol li ul li h4 {color:var(--white); font-size: 16px; line-height: 24px; width: 90%; padding-top:25px; padding-left:25px; position:relative;z-index: 5;}
+	div#services nav ol li ul li a {position:absolute; display:block; bottom:0px; right:0px; font-size: 14px; line-height: 28px;
+		border-top:1px solid var(--white); width:125px; height:30px; background:var(--red); text-align:center; color:var(--white);
+		transition: none; border-radius: 6px 0 0 0;}
+}
+@media (min-width: 680px) and (max-width: 1023px) {
+	div#services nav ol li ul li div, section#service_content div#services nav ol li button.show-more {display:none;}
+	section#service_content h1 {width:100%; font-size: 24px; text-align:center; color:var(--dark-blue3); padding-top:20px; padding-bottom:20px;}
+	div#description, div#diagnostics {width: 100%; padding: 15px; margin 15px;}
+	div#diagnostics h2 {color:var(--dark-blue3); font-size: 24px; width: calc(100% - 30px); text-align:center; margin-bottom:10px; margin-top:20px;}
+	div#description p, div#diagnostics p {width: calc(100% - 30px); font-size: 14px;line-height: 21px; margin-bottom: 7px; color:var(--black2); text-align: justify;}
+	div#diagnostics button {width: 250px; height:40px; border-radius: 8px; margin-left: calc(50% - 125px); cursor:pointer; font-size: 16px;
+		border: 1px solid var(--white); background: var(--dark-blue3); color:var(--white); transition: background .2s linear; margin-bottom:10px;  margin-top:10px; }
+	div#diagnostics button:hover {background: var(--red);}
+	div#services nav {width:100%; background:var(--white3);}
+	div#services nav h3 {color:var(--dark-blue3); width:calc(100% - 30px); font-size: 18px; line-height: 28px; margin-top:25px; margin-bottom:10px; margin-left:15px;
+	border-bottom: 1px solid var(--dark-blue3); padding-bottom:10px;}
+	div#services nav p {color:var(--black2); font-size: 14px; line-height: 21px; padding-left:15px; margin-bottom:12px;}
+	section#service_content div#services nav ol li ul {background-color:var(--black2); user-select:none;width:100%; display: flex; flex-wrap:wrap; background-size: 98%;}
+	div#services nav ol li ul li {width:50%; height:30vw; overflow:hidden; position:relative;}
+	div#services nav ol li ul li h4 {color:var(--white); font-size: 16px; line-height: 24px; width: 90%; padding-top:25px; padding-left:25px; position:relative;z-index: 5;}
+	div#services nav ol li ul li h4 br {display:none;}
+	div#services nav ol li ul li span {width:calc(100% - 50px); height:160px; font-size: 12px; line-height: 18px; transition:bottom .25s ease-in-out;
+		display:block; position:absolute; color:var(--white); user-select:none; padding-left:25px;padding-right:25px;padding-top:130px;
+		background:linear-gradient(0deg, var(--black) 0%, var(--alpha-dark) 60%, transparent 100%); bottom:-160px;}
+	div#services nav ol li ul li a {position:absolute; display:block; bottom:0px; right:-130px; font-size: 14px; line-height: 28px;
+		border-top:1px solid var(--white); width:125px; height:30px; background:var(--red); text-align:center; color:var(--white);
+		transition: right .25s ease-in-out; border-radius: 6px 0 0 0;}
+	div#services nav ol li ul li a:hover {background:var(--orange);}
+	div#services nav ol li ul li:hover span {bottom:-15px;}
+	div#services nav ol li ul li:hover a {right:0px;}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	div#service_frame { width: calc(100% + 80px);}
+	section#service_content div#services nav ol li button.show-more {display:none;}
+	main#main_content:has(aside#main_ui nav#service_left-menu.show) div#services {padding-left:calc(50% - 465px);}
+	div#service_background {background-image: linear-gradient(to top, var(--white), transparent), url('/img/background/services-background.webp');
+		background-repeat: no-repeat; background-size: cover; background-position: center top; filter: blur(4px);
+		width:100%; min-height:540px; position: absolute; top:0; z-index: -1;}
+	section#service_content h1 {width: calc(100% + 80px); font-size: 30px; text-align:center; color:var(--dark-blue3); background: rgba(255,255,255,.9);
+		padding-top:30px; padding-bottom:30px; margin-bottom:30px; }
+	div#services {max-width:930px; display: flex; flex-wrap:wrap; padding-left:calc(50% - 465px); transition:padding-left .6s ease-in-out;}
+	div.border {border: 1px solid var(--white); padding:12px; min-height:330px;}
+	div#description, div#diagnostics {width: calc(50% - 30px); height: 355px;padding: 15px; margin 15px;}
+	div#description {background:rgba(36,50,95,.9);}
+	div#diagnostics {background:rgba(141,51,69,.9);}
+	div#diagnostics button {width: 250px; height:40px; border-radius: 8px; margin-left: calc(50% - 125px); cursor:pointer; font-size: 18px;
+		margin-top:40px; border: 1px solid var(--white); background: transparent; color:var(--white); transition: background .2s linear;}
+	div#diagnostics button:hover {background: var(--red);}
+	div#diagnostics h2 {color:var(--white); font-size: 20px; width: 100%; text-align:center; margin-bottom:20px;}
+	div#description p, div#diagnostics p {font-size: 14px;line-height: 21px; margin-bottom: 7px; color:var(--white); text-align: justify; text-shadow: 0 0 1px var(--black2);}
+	div#description p:last-child {margin-bottom: 0px;}
+	div#services nav {width: calc(100% - 2px); margin-left:1px; background:var(--white3); box-shadow: 0 0 2px var(--black2); margin-bottom:35px;}
+	div#services nav h3 {color:var(--dark-blue3); font-size: 24px; line-height: 34px; margin-top:25px; margin-bottom:15px; padding-left:20px;}
+	div#services nav p {color:var(--black2); font-size: 15px; line-height: 21px; padding-left:20px; margin-bottom:12px;}
+	div#services nav ol li ul {background-color:var(--black2); user-select:none;width:100%; display: flex; flex-wrap:wrap;}
+	div#services nav ol li ul li {width:33.333%; height:190px; overflow:hidden; position:relative;}
+	div#services nav ol li ul li h4 {color:var(--white); font-size: 15px; line-height: 18px; width: 75%; padding-top:15px; padding-left:25px; position:relative;z-index: 5;}
+	div#services nav ol li ul li span {width:calc(100% - 30px); height:120px; font-size: 12px; line-height: 15px; transition:bottom .25s ease-in-out;
+		display:block; position:absolute; color:var(--white); user-select:none; padding-left:15px;padding-right:15px;padding-top:80px;
+		background:linear-gradient(0deg, var(--black) 0%, var(--alpha-dark) 60%, transparent 100%); bottom:-160px;}
+	div#services nav ol li ul li a {position:absolute; display:block; bottom:0px; right:-130px; font-size: 12px; line-height: 24px;
+		border-top:1px solid var(--white); width:125px; height:24px; background:var(--red); text-align:center; color:var(--white);
+		transition: right .25s ease-in-out; border-radius: 6px 0 0 0;}
+	div#services nav ol li ul li a:hover {background:var(--orange);}
+	div#services nav ol li ul li:hover span {bottom:0px;}
+	div#services nav ol li ul li:hover a {right:0px;}
+	
+}
+@media (min-width: 1280px) {
+	section#service_content div#services nav ol li button.show-more {display:none;}
+	div#service_background {background-image: linear-gradient(to top, var(--white), transparent), url('/img/background/services-background.webp');
+		background-repeat: no-repeat; background-size: cover; background-position: center top; filter: blur(4px);
+		width:100%; min-height:540px; position: absolute; top:0; z-index: -1;}
+	section#service_content h1 {width: calc(100% + 80px); font-size: 36px; text-align:center; color:var(--dark-blue3); background: rgba(255,255,255,.9);
+		padding-top:30px; padding-bottom:30px; margin-bottom:30px;}
+	div#services {max-width:1200px; margin-left:calc(50% - 600px); display: flex; flex-wrap:wrap;}
+	div.border {border: 1px solid var(--white); padding:18px; min-height:270px; border-radius: 8px;}
+	div#description, div#diagnostics {width: calc(50% - 50px); height: 300px;padding: 25px; margin 25px;}
+	div#description {background:rgba(36,50,95,.9); border-radius: 16px 0 0 0;}
+	div#diagnostics {background:rgba(141,51,69,.9); border-radius: 0 16px 0 0;}
+	div#diagnostics button {width: 250px; height:40px; border-radius: 8px; margin-left: calc(50% - 125px); cursor:pointer; font-size: 18px;
+		margin-top:5px; border: 1px solid var(--white); background: transparent; color:var(--white); transition: background .2s linear;}
+	div#diagnostics button:hover {background: var(--red);}
+	div#diagnostics h2 {color:var(--white); font-size: 28px; width: 100%; text-align:center; margin-bottom:20px;}
+	div#description p, div#diagnostics p {font-size: 15px;line-height: 21px; margin-bottom: 10px; color:var(--white); text-align: justify; text-shadow: 0 0 1px var(--black2);}
+	div#description p:last-child {margin-bottom: 0px;}
+	div#services nav {width: calc(100% - 2px); margin-left:1px; background:var(--white3); box-shadow: 0 0 2px var(--black2); margin-bottom:45px;}
+	div#services nav h3 {color:var(--dark-blue3); font-size: 24px; line-height: 34px; margin-top:45px; margin-bottom:15px; padding-left:25px;}
+	div#services nav p {color:var(--black2); font-size: 16px; line-height: 24px; padding-left:25px; margin-bottom:15px;}
+	div#services nav ol li ul {background-color:var(--black2); user-select:none;width:100%; display: flex; flex-wrap:wrap;}
+	div#services nav ol li ul li {width:33.333%; height:250px; overflow:hidden; position:relative;}
+	div#services nav ol li ul li h4 {color:var(--white); font-size: 18px; line-height: 24px; width: 75%; padding-top:25px; padding-left:25px; position:relative;z-index: 5;}
+	div#services nav ol li ul li span {width:calc(100% - 50px); height:160px; font-size: 15px; line-height: 18px; transition:bottom .25s ease-in-out;
+		display:block; position:absolute; color:var(--white); user-select:none; padding-left:25px;padding-right:25px;padding-top:60px;
+		background:linear-gradient(0deg, var(--black) 0%, var(--alpha-dark) 60%, transparent 100%); bottom:-160px;}
+	div#services nav ol li ul li a {position:absolute; display:block; bottom:0px; right:-130px; font-size: 12px; line-height: 28px;
+		border-top:1px solid var(--white); width:125px; height:30px; background:var(--red); text-align:center; color:var(--white);
+		transition: right .25s ease-in-out; border-radius: 6px 0 0 0;}
+	div#services nav ol li ul li a:hover {background:var(--orange);}
+	div#services nav ol li ul li:hover span {bottom:0px;}
+	div#services nav ol li ul li:hover a {right:0px;}
+}

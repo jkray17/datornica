@@ -1,0 +1,20 @@
+section#content div#brands-list, section#content div#brands-list2, .rem-list {width: calc(10./
+0% - 60px); padding-top:15px; transition: height .3s linear; }
+section#content div#brands-list nav, section#content div#brands-list2 nav {width: 100%; display:flex; justify-content: space-around; align-items:center; user-select:none; padding-bottom:15px;}
+section#content div#brands-list nav ul, section#content div#brands-list2 nav ul {display:flex; justify-content: center; flex-wrap: wrap; margin-bottom:0;}
+section#content div#brands-list nav ul li, section#content div#brands-list2 nav ul li {display: inline; text-align: center;  transition: background .3s linear;
+	 cursor:pointer; border: 1px solid var(--dark-blue2); border-top: 1px solid var(--dark-blue3); border-bottom: 1px solid var(--dark-blue3);}
+section#content div#brands-list nav ul li.active, section#content div#brands-list2 nav ul li.active {background: var(--dark-blue3); color: var(--white);}
+/*section#content div#brands-list nav ul li:hover, section#content div#brands-list2 nav ul li:hover {background: var(--grey3); color: var(--dark-blue2);}*/
+section#content div#brands-list div#brands-list-wrapper, section#content div#brands-list2 div#brands-list-wrapper2, .rem-list-wrapper {width:100%;min-height:200px; display:flex; flex-wrap:wrap; justify-content: center; align-items:center;}
+section#content div#brands-list div#brands-list-wrapper div.brands-list-item, section#content div#brands-list2 div#brands-list-wrapper2 div.brands-list-item, .rem-list-wrapper .brands-list-item { transition: all .1s linear; transform: scale(1); margin:7px; padding: 0 7px; border-radius: 6px;width: 200px; height: 185px; border: 1px solid var(--white2);}
+.rem-list-wrapper .brands-list-item { width: 200px; height: auto; min-height: 225px;}
+section#content div#brands-list div#brands-list-wrapper div.brands-list-item a, section#content div#brands-list2 div#brands-list-wrapper2 div.brands-list-item a, .rem-list-wrapper .brands-list-item a {width: 100%; display:flex; flex-direction:column; align-items:center; justify-content: center; }
+section#content div#brands-list div#brands-list-wrapper div.brands-list-item p, section#content div#brands-list2 div#brands-list-wrapper2 div.brands-list-item p, .rem-list-wrapper .brands-list-item p {max-width:100%!important; font-size: 14px!important; margin-top: 10px; font-weight: 600; color: var(--dark-blue3)!important; text-align: center!important;}
+section#content div#brands-list div#brands-list-wrapper div.brands-list-item:hover, section#content div#brands-list2 div#brands-list-wrapper2 div.brands-list-item:hover, .rem-list-wrapper .brands-list-item:hover {border: 1px solid var(--dark-blue2);}
+section#content div#brands-list div#brands-list-wrapper div.brands-list-item.hidden, section#content div#brands-list2 div#brands-list-wrapper2 div.brands-list-item.hidden, .rem-list-wrapper .brands-list-item .hidden {transform: scale(0); width: 0px; height: 0px; border: none; margin:0px; position: absolute;}
+section#content div#brands-list2 div#brands-list-wrapper2 div.brands-list-item a img {transform: scale(.7);}
+@media (min-width: 260px) and (max-width: 1023px) {
+	section#content div#brands-list nav ul li, section#content div#brands-list2 nav ul li, .rem-list-wrapper .brands-list-item nav ul li {border-radius: 5px; padding: 5px 10px; margin:5px; font-size: 13px;  width: 75px; color: var(--dark-blue3);}}
+@media (min-width: 1024px) {
+	section#content div#brands-list nav ul li, section#content div#brands-list2 nav ul li, .rem-list-wrapper .brands-list-item nav ul li {padding: 7px 15px; margin:5px; border-radius: 7px;  width: 80px; font-size: 13px;}}
